@@ -3,7 +3,7 @@
 my $autoGptPath = @ARGV[0];
 
 sub escapeWorkspace {
-    my $file = $autoGptPath."/autogps/autogpt/workspace/workspace.py";
+    my $file = $autoGptPath."/autogpts/autogpt/autogpt/workspace/workspace.py";
     print "Removing workspace restrictions...\n";
 
     rename($file, $file . '.bak');
